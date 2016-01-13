@@ -2,7 +2,7 @@
 #define __OPUSENC_H
 
 #include "opus_types.h"
-#include <ogg/ogg.h>
+#include <OpusKit/ogg.h>
 #import <Foundation/Foundation.h>
 
 #ifdef ENABLE_NLS
