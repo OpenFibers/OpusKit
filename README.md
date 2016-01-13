@@ -18,7 +18,7 @@ You can easily build one use [Opus-iOS](https://github.com/OpenFibers/Opus-iOS),
 #### 4. Check the archs contained by binary file
 
 ```
-➜  Products  lipo -info OpusKit 
+➜  lipo -info OpusKit 
 Architectures in the fat file: OpusKit are: i386 x86_64 armv7 armv7s arm64 
 ```
 A normal OpusKit file comes with this five archs: i386, x86_64, armv7, armv7s, arm64.
@@ -29,3 +29,7 @@ A normal OpusKit file comes with this five archs: i386, x86_64, armv7, armv7s, a
 ➜  cp -R Release-iphoneos/OpusKit.framework ./OpusKit.framework
 ➜  mv OpusKit ./OpusKit.framework/OpusKit
 ```
+
+#### 6. Add OpusKit to your project
+
+Just drag OpusKit.framework into your project, then in the project's 'General' tab, add OpusKit.framework to 'Embedded Binaries'
