@@ -3,6 +3,7 @@
 
 #include "opus_types.h"
 #include <ogg/ogg.h>
+#import <Foundation/Foundation.h>
 
 #ifdef ENABLE_NLS
 #include <libintl.h>
