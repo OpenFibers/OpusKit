@@ -8,12 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		42C1AC031C464CCA0047A071 /* OpusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC021C464CCA0047A071 /* OpusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C1AC661C464EB50047A071 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC471C464EB50047A071 /* bitwise.c */; };
+		42C1AC671C464EB50047A071 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC481C464EB50047A071 /* framing.c */; };
+		42C1AC681C464EB50047A071 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC491C464EB50047A071 /* ogg.h */; };
+		42C1AC691C464EB50047A071 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4A1C464EB50047A071 /* os_types.h */; };
+		42C1AC6A1C464EB50047A071 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4E1C464EB50047A071 /* opus.h */; };
+		42C1AC6B1C464EB50047A071 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4F1C464EB50047A071 /* opus_defines.h */; };
+		42C1AC6C1C464EB50047A071 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC501C464EB50047A071 /* opus_multistream.h */; };
+		42C1AC6D1C464EB50047A071 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC511C464EB50047A071 /* opus_types.h */; };
+		42C1AC6E1C464EB50047A071 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1AC531C464EB50047A071 /* libopus.a */; };
+		42C1AC6F1C464EB50047A071 /* diag_range.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC551C464EB50047A071 /* diag_range.c */; };
+		42C1AC701C464EB50047A071 /* diag_range.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC561C464EB50047A071 /* diag_range.h */; };
+		42C1AC711C464EB50047A071 /* opus_header.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC571C464EB50047A071 /* opus_header.c */; };
+		42C1AC721C464EB50047A071 /* opus_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC581C464EB50047A071 /* opus_header.h */; };
+		42C1AC731C464EB50047A071 /* opusenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC591C464EB50047A071 /* opusenc.h */; };
+		42C1AC741C464EB50047A071 /* opusenc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC5A1C464EB50047A071 /* opusenc.m */; };
+		42C1AC751C464EB50047A071 /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC5B1C464EB50047A071 /* picture.c */; };
+		42C1AC761C464EB50047A071 /* picture.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC5C1C464EB50047A071 /* picture.h */; };
+		42C1AC771C464EB50047A071 /* wav_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC5D1C464EB50047A071 /* wav_io.c */; };
+		42C1AC781C464EB50047A071 /* wav_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC5E1C464EB50047A071 /* wav_io.h */; };
+		42C1AC791C464EB50047A071 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC601C464EB50047A071 /* info.c */; };
+		42C1AC7A1C464EB50047A071 /* internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC611C464EB50047A071 /* internal.c */; };
+		42C1AC7B1C464EB50047A071 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC621C464EB50047A071 /* internal.h */; };
+		42C1AC7C1C464EB50047A071 /* opusfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC631C464EB50047A071 /* opusfile.c */; };
+		42C1AC7D1C464EB50047A071 /* opusfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC641C464EB50047A071 /* opusfile.h */; };
+		42C1AC7E1C464EB50047A071 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC651C464EB50047A071 /* stream.c */; };
+		42C1AC801C464EFF0047A071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1AC7F1C464EFF0047A071 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42C1ABFF1C464CCA0047A071 /* OpusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C1AC021C464CCA0047A071 /* OpusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpusKit.h; sourceTree = "<group>"; };
 		42C1AC041C464CCA0047A071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C1AC471C464EB50047A071 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
+		42C1AC481C464EB50047A071 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = framing.c; sourceTree = "<group>"; };
+		42C1AC491C464EB50047A071 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		42C1AC4A1C464EB50047A071 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		42C1AC4E1C464EB50047A071 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		42C1AC4F1C464EB50047A071 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		42C1AC501C464EB50047A071 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		42C1AC511C464EB50047A071 /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		42C1AC531C464EB50047A071 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		42C1AC551C464EB50047A071 /* diag_range.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diag_range.c; sourceTree = "<group>"; };
+		42C1AC561C464EB50047A071 /* diag_range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diag_range.h; sourceTree = "<group>"; };
+		42C1AC571C464EB50047A071 /* opus_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opus_header.c; sourceTree = "<group>"; };
+		42C1AC581C464EB50047A071 /* opus_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_header.h; sourceTree = "<group>"; };
+		42C1AC591C464EB50047A071 /* opusenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opusenc.h; sourceTree = "<group>"; };
+		42C1AC5A1C464EB50047A071 /* opusenc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = opusenc.m; sourceTree = "<group>"; };
+		42C1AC5B1C464EB50047A071 /* picture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = picture.c; sourceTree = "<group>"; };
+		42C1AC5C1C464EB50047A071 /* picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picture.h; sourceTree = "<group>"; };
+		42C1AC5D1C464EB50047A071 /* wav_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_io.c; sourceTree = "<group>"; };
+		42C1AC5E1C464EB50047A071 /* wav_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_io.h; sourceTree = "<group>"; };
+		42C1AC601C464EB50047A071 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		42C1AC611C464EB50047A071 /* internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = internal.c; sourceTree = "<group>"; };
+		42C1AC621C464EB50047A071 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		42C1AC631C464EB50047A071 /* opusfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opusfile.c; sourceTree = "<group>"; };
+		42C1AC641C464EB50047A071 /* opusfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opusfile.h; sourceTree = "<group>"; };
+		42C1AC651C464EB50047A071 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream.c; sourceTree = "<group>"; };
+		42C1AC7F1C464EFF0047A071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C1AC801C464EFF0047A071 /* Foundation.framework in Frameworks */,
+				42C1AC6E1C464EB50047A071 /* libopus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +84,7 @@
 		42C1ABF51C464CCA0047A071 = {
 			isa = PBXGroup;
 			children = (
+				42C1AC7F1C464EFF0047A071 /* Foundation.framework */,
 				42C1AC011C464CCA0047A071 /* OpusKit */,
 				42C1AC001C464CCA0047A071 /* Products */,
 			);
@@ -47,9 +102,106 @@
 			isa = PBXGroup;
 			children = (
 				42C1AC021C464CCA0047A071 /* OpusKit.h */,
+				42C1AC441C464EB50047A071 /* opus */,
 				42C1AC041C464CCA0047A071 /* Info.plist */,
 			);
 			path = OpusKit;
+			sourceTree = "<group>";
+		};
+		42C1AC441C464EB50047A071 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC451C464EB50047A071 /* ogg */,
+				42C1AC4B1C464EB50047A071 /* opus */,
+				42C1AC541C464EB50047A071 /* opusenc */,
+				42C1AC5F1C464EB50047A071 /* opusfile */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		42C1AC451C464EB50047A071 /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC461C464EB50047A071 /* ogg */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		42C1AC461C464EB50047A071 /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC471C464EB50047A071 /* bitwise.c */,
+				42C1AC481C464EB50047A071 /* framing.c */,
+				42C1AC491C464EB50047A071 /* ogg.h */,
+				42C1AC4A1C464EB50047A071 /* os_types.h */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		42C1AC4B1C464EB50047A071 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC4C1C464EB50047A071 /* include */,
+				42C1AC521C464EB50047A071 /* lib */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		42C1AC4C1C464EB50047A071 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC4D1C464EB50047A071 /* opus */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		42C1AC4D1C464EB50047A071 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC4E1C464EB50047A071 /* opus.h */,
+				42C1AC4F1C464EB50047A071 /* opus_defines.h */,
+				42C1AC501C464EB50047A071 /* opus_multistream.h */,
+				42C1AC511C464EB50047A071 /* opus_types.h */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		42C1AC521C464EB50047A071 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC531C464EB50047A071 /* libopus.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		42C1AC541C464EB50047A071 /* opusenc */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC551C464EB50047A071 /* diag_range.c */,
+				42C1AC561C464EB50047A071 /* diag_range.h */,
+				42C1AC571C464EB50047A071 /* opus_header.c */,
+				42C1AC581C464EB50047A071 /* opus_header.h */,
+				42C1AC591C464EB50047A071 /* opusenc.h */,
+				42C1AC5A1C464EB50047A071 /* opusenc.m */,
+				42C1AC5B1C464EB50047A071 /* picture.c */,
+				42C1AC5C1C464EB50047A071 /* picture.h */,
+				42C1AC5D1C464EB50047A071 /* wav_io.c */,
+				42C1AC5E1C464EB50047A071 /* wav_io.h */,
+			);
+			path = opusenc;
+			sourceTree = "<group>";
+		};
+		42C1AC5F1C464EB50047A071 /* opusfile */ = {
+			isa = PBXGroup;
+			children = (
+				42C1AC601C464EB50047A071 /* info.c */,
+				42C1AC611C464EB50047A071 /* internal.c */,
+				42C1AC621C464EB50047A071 /* internal.h */,
+				42C1AC631C464EB50047A071 /* opusfile.c */,
+				42C1AC641C464EB50047A071 /* opusfile.h */,
+				42C1AC651C464EB50047A071 /* stream.c */,
+			);
+			path = opusfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +211,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C1AC761C464EB50047A071 /* picture.h in Headers */,
+				42C1AC7D1C464EB50047A071 /* opusfile.h in Headers */,
+				42C1AC6D1C464EB50047A071 /* opus_types.h in Headers */,
+				42C1AC681C464EB50047A071 /* ogg.h in Headers */,
+				42C1AC781C464EB50047A071 /* wav_io.h in Headers */,
+				42C1AC721C464EB50047A071 /* opus_header.h in Headers */,
+				42C1AC691C464EB50047A071 /* os_types.h in Headers */,
+				42C1AC731C464EB50047A071 /* opusenc.h in Headers */,
+				42C1AC701C464EB50047A071 /* diag_range.h in Headers */,
 				42C1AC031C464CCA0047A071 /* OpusKit.h in Headers */,
+				42C1AC6A1C464EB50047A071 /* opus.h in Headers */,
+				42C1AC6B1C464EB50047A071 /* opus_defines.h in Headers */,
+				42C1AC6C1C464EB50047A071 /* opus_multistream.h in Headers */,
+				42C1AC7B1C464EB50047A071 /* internal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C1AC671C464EB50047A071 /* framing.c in Sources */,
+				42C1AC711C464EB50047A071 /* opus_header.c in Sources */,
+				42C1AC751C464EB50047A071 /* picture.c in Sources */,
+				42C1AC791C464EB50047A071 /* info.c in Sources */,
+				42C1AC7C1C464EB50047A071 /* opusfile.c in Sources */,
+				42C1AC6F1C464EB50047A071 /* diag_range.c in Sources */,
+				42C1AC771C464EB50047A071 /* wav_io.c in Sources */,
+				42C1AC661C464EB50047A071 /* bitwise.c in Sources */,
+				42C1AC7E1C464EB50047A071 /* stream.c in Sources */,
+				42C1AC741C464EB50047A071 /* opusenc.m in Sources */,
+				42C1AC7A1C464EB50047A071 /* internal.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +407,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpusKit/opus/ogg";
 				INFOPLIST_FILE = OpusKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpusKit/opus/opus/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = twentyfileoclock.OpusKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -247,9 +428,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpusKit/opus/ogg";
 				INFOPLIST_FILE = OpusKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpusKit/opus/opus/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = twentyfileoclock.OpusKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -275,6 +461,7 @@
 				42C1AC091C464CCA0047A071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
