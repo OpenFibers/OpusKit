@@ -6,7 +6,9 @@
 //  Copyright © 2016 openthread. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <OpusKit/opus.h>
+#import <OpusKit/opusenc.h>
+#import <OpusKit/opusfile.h>
 
 //! Project version number for OpusKit.
 FOUNDATION_EXPORT double OpusKitVersionNumber;

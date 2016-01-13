@@ -12,7 +12,7 @@
 		42C1AC671C464EB50047A071 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC481C464EB50047A071 /* framing.c */; };
 		42C1AC681C464EB50047A071 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC491C464EB50047A071 /* ogg.h */; };
 		42C1AC691C464EB50047A071 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4A1C464EB50047A071 /* os_types.h */; };
-		42C1AC6A1C464EB50047A071 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4E1C464EB50047A071 /* opus.h */; };
+		42C1AC6A1C464EB50047A071 /* opus.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4E1C464EB50047A071 /* opus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C1AC6B1C464EB50047A071 /* opus_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC4F1C464EB50047A071 /* opus_defines.h */; };
 		42C1AC6C1C464EB50047A071 /* opus_multistream.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC501C464EB50047A071 /* opus_multistream.h */; };
 		42C1AC6D1C464EB50047A071 /* opus_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC511C464EB50047A071 /* opus_types.h */; };
@@ -21,7 +21,7 @@
 		42C1AC701C464EB50047A071 /* diag_range.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC561C464EB50047A071 /* diag_range.h */; };
 		42C1AC711C464EB50047A071 /* opus_header.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC571C464EB50047A071 /* opus_header.c */; };
 		42C1AC721C464EB50047A071 /* opus_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC581C464EB50047A071 /* opus_header.h */; };
-		42C1AC731C464EB50047A071 /* opusenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC591C464EB50047A071 /* opusenc.h */; };
+		42C1AC731C464EB50047A071 /* opusenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC591C464EB50047A071 /* opusenc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C1AC741C464EB50047A071 /* opusenc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC5A1C464EB50047A071 /* opusenc.m */; };
 		42C1AC751C464EB50047A071 /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC5B1C464EB50047A071 /* picture.c */; };
 		42C1AC761C464EB50047A071 /* picture.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC5C1C464EB50047A071 /* picture.h */; };
@@ -31,7 +31,7 @@
 		42C1AC7A1C464EB50047A071 /* internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC611C464EB50047A071 /* internal.c */; };
 		42C1AC7B1C464EB50047A071 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC621C464EB50047A071 /* internal.h */; };
 		42C1AC7C1C464EB50047A071 /* opusfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC631C464EB50047A071 /* opusfile.c */; };
-		42C1AC7D1C464EB50047A071 /* opusfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC641C464EB50047A071 /* opusfile.h */; };
+		42C1AC7D1C464EB50047A071 /* opusfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C1AC641C464EB50047A071 /* opusfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C1AC7E1C464EB50047A071 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1AC651C464EB50047A071 /* stream.c */; };
 		42C1AC801C464EFF0047A071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C1AC7F1C464EFF0047A071 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -212,16 +212,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C1AC761C464EB50047A071 /* picture.h in Headers */,
+				42C1AC731C464EB50047A071 /* opusenc.h in Headers */,
+				42C1AC6A1C464EB50047A071 /* opus.h in Headers */,
 				42C1AC7D1C464EB50047A071 /* opusfile.h in Headers */,
 				42C1AC6D1C464EB50047A071 /* opus_types.h in Headers */,
 				42C1AC681C464EB50047A071 /* ogg.h in Headers */,
 				42C1AC781C464EB50047A071 /* wav_io.h in Headers */,
 				42C1AC721C464EB50047A071 /* opus_header.h in Headers */,
 				42C1AC691C464EB50047A071 /* os_types.h in Headers */,
-				42C1AC731C464EB50047A071 /* opusenc.h in Headers */,
 				42C1AC701C464EB50047A071 /* diag_range.h in Headers */,
 				42C1AC031C464CCA0047A071 /* OpusKit.h in Headers */,
-				42C1AC6A1C464EB50047A071 /* opus.h in Headers */,
 				42C1AC6B1C464EB50047A071 /* opus_defines.h in Headers */,
 				42C1AC6C1C464EB50047A071 /* opus_multistream.h in Headers */,
 				42C1AC7B1C464EB50047A071 /* internal.h in Headers */,
