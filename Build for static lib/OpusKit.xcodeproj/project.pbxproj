@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425FC3911C4753C8002BB4EA /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3711C4753C8002BB4EA /* bitwise.c */; };
+		425FC3921C4753C8002BB4EA /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3721C4753C8002BB4EA /* framing.c */; };
+		425FC3931C4753C8002BB4EA /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 425FC37D1C4753C8002BB4EA /* libopus.a */; };
+		425FC3941C4753C8002BB4EA /* diag_range.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC37F1C4753C8002BB4EA /* diag_range.c */; };
+		425FC3951C4753C8002BB4EA /* opus_header.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3811C4753C8002BB4EA /* opus_header.c */; };
+		425FC3961C4753C8002BB4EA /* opusenc.m in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3841C4753C8002BB4EA /* opusenc.m */; };
+		425FC3971C4753C8002BB4EA /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3851C4753C8002BB4EA /* picture.c */; };
+		425FC3981C4753C8002BB4EA /* wav_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC3871C4753C8002BB4EA /* wav_io.c */; };
+		425FC3991C4753C8002BB4EA /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC38A1C4753C8002BB4EA /* info.c */; };
+		425FC39A1C4753C8002BB4EA /* internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC38B1C4753C8002BB4EA /* internal.c */; };
+		425FC39B1C4753C8002BB4EA /* opusfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC38D1C4753C8002BB4EA /* opusfile.c */; };
+		425FC39C1C4753C8002BB4EA /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 425FC38F1C4753C8002BB4EA /* stream.c */; };
+		425FC39E1C475413002BB4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425FC39D1C475413002BB4EA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		425FC35E1C4753A9002BB4EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		425FC3601C4753A9002BB4EA /* libOpusKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpusKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		425FC36D1C4753C8002BB4EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425FC3711C4753C8002BB4EA /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
+		425FC3721C4753C8002BB4EA /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = framing.c; sourceTree = "<group>"; };
+		425FC37D1C4753C8002BB4EA /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		425FC37F1C4753C8002BB4EA /* diag_range.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diag_range.c; sourceTree = "<group>"; };
+		425FC3801C4753C8002BB4EA /* diag_range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diag_range.h; sourceTree = "<group>"; };
+		425FC3811C4753C8002BB4EA /* opus_header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opus_header.c; sourceTree = "<group>"; };
+		425FC3821C4753C8002BB4EA /* opus_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_header.h; sourceTree = "<group>"; };
+		425FC3841C4753C8002BB4EA /* opusenc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = opusenc.m; sourceTree = "<group>"; };
+		425FC3851C4753C8002BB4EA /* picture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = picture.c; sourceTree = "<group>"; };
+		425FC3861C4753C8002BB4EA /* picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picture.h; sourceTree = "<group>"; };
+		425FC3871C4753C8002BB4EA /* wav_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_io.c; sourceTree = "<group>"; };
+		425FC3881C4753C8002BB4EA /* wav_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_io.h; sourceTree = "<group>"; };
+		425FC38A1C4753C8002BB4EA /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		425FC38B1C4753C8002BB4EA /* internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = internal.c; sourceTree = "<group>"; };
+		425FC38C1C4753C8002BB4EA /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		425FC38D1C4753C8002BB4EA /* opusfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opusfile.c; sourceTree = "<group>"; };
+		425FC38F1C4753C8002BB4EA /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stream.c; sourceTree = "<group>"; };
+		425FC3901C4753C8002BB4EA /* OpusKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpusKit.h; sourceTree = "<group>"; };
+		425FC39D1C475413002BB4EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		425FC3B91C477F61002BB4EA /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		425FC3BA1C477F61002BB4EA /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		425FC3BB1C477F61002BB4EA /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		425FC3BC1C477F61002BB4EA /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		425FC3BD1C477F61002BB4EA /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		425FC3BE1C477F61002BB4EA /* opusenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opusenc.h; sourceTree = "<group>"; };
+		425FC3BF1C477F61002BB4EA /* opusfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opusfile.h; sourceTree = "<group>"; };
+		425FC3C01C477F61002BB4EA /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425FC35D1C4753A9002BB4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425FC39E1C475413002BB4EA /* Foundation.framework in Frameworks */,
+				425FC3931C4753C8002BB4EA /* libopus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425FC3571C4753A9002BB4EA = {
+			isa = PBXGroup;
+			children = (
+				425FC39D1C475413002BB4EA /* Foundation.framework */,
+				425FC36C1C4753C8002BB4EA /* OpusKit */,
+				425FC3611C4753A9002BB4EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425FC3611C4753A9002BB4EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425FC3601C4753A9002BB4EA /* libOpusKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425FC36C1C4753C8002BB4EA /* OpusKit */ = {
+			isa = PBXGroup;
+			children = (
+				425FC36D1C4753C8002BB4EA /* Info.plist */,
+				425FC36E1C4753C8002BB4EA /* opus */,
+				425FC3901C4753C8002BB4EA /* OpusKit.h */,
+			);
+			path = OpusKit;
+			sourceTree = "<group>";
+		};
+		425FC36E1C4753C8002BB4EA /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				425FC3B81C477F61002BB4EA /* include */,
+				425FC36F1C4753C8002BB4EA /* ogg */,
+				425FC3751C4753C8002BB4EA /* opus */,
+				425FC37E1C4753C8002BB4EA /* opusenc */,
+				425FC3891C4753C8002BB4EA /* opusfile */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		425FC36F1C4753C8002BB4EA /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				425FC3701C4753C8002BB4EA /* ogg */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		425FC3701C4753C8002BB4EA /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				425FC3711C4753C8002BB4EA /* bitwise.c */,
+				425FC3721C4753C8002BB4EA /* framing.c */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		425FC3751C4753C8002BB4EA /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				425FC37C1C4753C8002BB4EA /* lib */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		425FC37C1C4753C8002BB4EA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				425FC37D1C4753C8002BB4EA /* libopus.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		425FC37E1C4753C8002BB4EA /* opusenc */ = {
+			isa = PBXGroup;
+			children = (
+				425FC37F1C4753C8002BB4EA /* diag_range.c */,
+				425FC3801C4753C8002BB4EA /* diag_range.h */,
+				425FC3811C4753C8002BB4EA /* opus_header.c */,
+				425FC3821C4753C8002BB4EA /* opus_header.h */,
+				425FC3841C4753C8002BB4EA /* opusenc.m */,
+				425FC3851C4753C8002BB4EA /* picture.c */,
+				425FC3861C4753C8002BB4EA /* picture.h */,
+				425FC3871C4753C8002BB4EA /* wav_io.c */,
+				425FC3881C4753C8002BB4EA /* wav_io.h */,
+			);
+			path = opusenc;
+			sourceTree = "<group>";
+		};
+		425FC3891C4753C8002BB4EA /* opusfile */ = {
+			isa = PBXGroup;
+			children = (
+				425FC38A1C4753C8002BB4EA /* info.c */,
+				425FC38B1C4753C8002BB4EA /* internal.c */,
+				425FC38C1C4753C8002BB4EA /* internal.h */,
+				425FC38D1C4753C8002BB4EA /* opusfile.c */,
+				425FC38F1C4753C8002BB4EA /* stream.c */,
+			);
+			path = opusfile;
+			sourceTree = "<group>";
+		};
+		425FC3B81C477F61002BB4EA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				425FC3B91C477F61002BB4EA /* ogg.h */,
+				425FC3BA1C477F61002BB4EA /* opus.h */,
+				425FC3BB1C477F61002BB4EA /* opus_defines.h */,
+				425FC3BC1C477F61002BB4EA /* opus_multistream.h */,
+				425FC3BD1C477F61002BB4EA /* opus_types.h */,
+				425FC3BE1C477F61002BB4EA /* opusenc.h */,
+				425FC3BF1C477F61002BB4EA /* opusfile.h */,
+				425FC3C01C477F61002BB4EA /* os_types.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425FC35F1C4753A9002BB4EA /* OpusKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425FC3691C4753A9002BB4EA /* Build configuration list for PBXNativeTarget "OpusKit" */;
+			buildPhases = (
+				425FC35C1C4753A9002BB4EA /* Sources */,
+				425FC35D1C4753A9002BB4EA /* Frameworks */,
+				425FC35E1C4753A9002BB4EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpusKit;
+			productName = OpusKit;
+			productReference = 425FC3601C4753A9002BB4EA /* libOpusKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425FC3581C4753A9002BB4EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = openthread;
+				TargetAttributes = {
+					425FC35F1C4753A9002BB4EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 425FC35B1C4753A9002BB4EA /* Build configuration list for PBXProject "OpusKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 425FC3571C4753A9002BB4EA;
+			productRefGroup = 425FC3611C4753A9002BB4EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425FC35F1C4753A9002BB4EA /* OpusKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425FC35C1C4753A9002BB4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425FC3921C4753C8002BB4EA /* framing.c in Sources */,
+				425FC3951C4753C8002BB4EA /* opus_header.c in Sources */,
+				425FC3971C4753C8002BB4EA /* picture.c in Sources */,
+				425FC3991C4753C8002BB4EA /* info.c in Sources */,
+				425FC39B1C4753C8002BB4EA /* opusfile.c in Sources */,
+				425FC3941C4753C8002BB4EA /* diag_range.c in Sources */,
+				425FC3981C4753C8002BB4EA /* wav_io.c in Sources */,
+				425FC3911C4753C8002BB4EA /* bitwise.c in Sources */,
+				425FC39C1C4753C8002BB4EA /* stream.c in Sources */,
+				425FC3961C4753C8002BB4EA /* opusenc.m in Sources */,
+				425FC39A1C4753C8002BB4EA /* internal.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		425FC3671C4753A9002BB4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		425FC3681C4753A9002BB4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425FC36A1C4753A9002BB4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpusKit/opus/opus/lib",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		425FC36B1C4753A9002BB4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpusKit/opus/opus/lib",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425FC35B1C4753A9002BB4EA /* Build configuration list for PBXProject "OpusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425FC3671C4753A9002BB4EA /* Debug */,
+				425FC3681C4753A9002BB4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425FC3691C4753A9002BB4EA /* Build configuration list for PBXNativeTarget "OpusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425FC36A1C4753A9002BB4EA /* Debug */,
+				425FC36B1C4753A9002BB4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425FC3581C4753A9002BB4EA /* Project object */;
+}
