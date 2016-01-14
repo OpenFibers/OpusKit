@@ -50,7 +50,7 @@ Just drag OpusKit.framework into your project, then in the project's 'General' t
 
 ```
 ➜  lipo -info libOpusKit.a 
-Architectures in the fat file: OpusKit are: i386 x86_64 armv7 armv7s arm64 
+Architectures in the fat file: libOpusKit.a are: i386 x86_64 armv7 armv7s arm64 
 ```
 A normal OpusKit file comes with this five archs: i386, x86_64, armv7, armv7s, arm64.
 
