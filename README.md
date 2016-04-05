@@ -3,7 +3,7 @@ A repo for building opus framework for iOS.
 
 #### Before build, you may want to build your own libopus.a
 
-You can easily build one use [Opus-iOS](https://github.com/OpenFibers/Opus-iOS), then replaced the compiled libopus (version 1.1) in this repo. For framwork, replace it at `Build for framework/OpusKit/opus/opus/`; for static lib, at `Build for static lib/OpusKit/opus/include/*.h` and `Build for static lib/OpusKit/opus/opus/lib/libopus.a`.   
+You can easily build one use [Opus-iOS](https://github.com/OpenFibers/Opus-iOS), then replaced the compiled libopus (version 1.1.2) in this repo. For framwork, replace it at `Build for framework/OpusKit/opus/opus/`; for static lib, at `Build for static lib/OpusKit/opus/include/*.h` and `Build for static lib/OpusKit/opus/opus/lib/libopus.a`.   
 
 Or just use the compiled default one.  
 
